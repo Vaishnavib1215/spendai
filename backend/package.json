@@ -1,0 +1,21 @@
+{
+    "name": "spendai-backend",
+    "version": "1.0.0",
+    "description": "SpendAI Node.js Backend",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "sqlite3": "^5.1.7",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "axios": "^1.6.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}
